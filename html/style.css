@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+
+.container {
+  height: 100vh;
+  font-family: 'Tajawal', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.scoreboard-block {
+  display: none;
+  position: absolute;
+  width: 40vh;
+  background: radial-gradient(61.83% 85.77% at 2.1% 32.12%,rgba(26, 29, 41, 0.95) 0%,rgba(34, 37, 48, 0.95) 100%);
+  right: 0;
+  height: 100%;
+}
+
+.scoreboard-header {
+  border-radius: 1vh;
+  position: relative;
+  width: 92%;
+  height: 5vh;
+  margin: 1.7vh 1.3vh 3vh 1.7vh;
+  background: transparent;
+}
+
+.scoreboard-header > p {
+  text-align: center;
+  font-weight: bold;
+  color: #00F8B9;
+  text-shadow:0px 0px calc(.092592592vh * 11.1) #00F8B9;
+  font-size: 2.5vh;
+  padding-bottom:3%;
+}
+
+.scoreboard-header > h6 {
+  text-align: center;
+  font-weight: bold;
+  color: #00F8B9;
+  text-shadow:0px 0px calc(.092592592vh * 11.1) #00F8B9;
+  font-size: 1.3vh;
+  padding-bottom:2%;
+}
+
+.scoreboard-info-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.scoreboard-info-header > p {
+  padding: 0 6.5%;
+}
+
+#status-tab-label {
+  position: absolute;
+  right: 3vh;
+  font-weight: bold;
+}
+
+.top-hr {
+    width: 100%;
+    position: relative;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #fff, transparent);
+    border-radius: 50%;
+  border:none;
+  outline:none;
+}
+
+.top-hr::before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 50%;
+    background-color: #00f8b8;
+    left: 25%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.info-beam-title {
+  position: absolute;
+  font-size: 1.4.5vh;
+  right: 2vh;
+  line-height: 4vh;
+  font-weight: bold;
+  color: #ededed;
+}
+
+.info-beam-title-players {
+  position: absolute;
+  font-size: 1.4.5vh;
+  letter-spacing: 0.1vh;
+  right: 2vh;
+  line-height: 4vh;
+  font-weight: bold;
+  color: #ededed;
+}
+
+.info-beam-status {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 2vh;
+  float: left;
+  text-align: left;
+  font-size: larger;
+  line-height: 4.25vh;
+  background: #07b186;
+  border: 1px solid white;
+  width: 13%;
+  height: 100%;
+}
+
+#total-players {
+  border: none;
+  background: none;
+}
+
+.scoreboard-info-beam {
+  margin-top: 1.1vh;
+  position: relative;
+  height: 4.25vh;
+  width: 100%;
+  background: linear-gradient(90deg, rgba(0,248,184,0) 0%, rgba(0,248,184,0.2) 50%, rgba(0,248,184,0.5) 100%);
+}
+
+.fa-times {
+  color: white;
+}
+
+.fa-check {
+  color: white;
+}
+
+.fa-clock {
+  color: white;
+}
