@@ -1,0 +1,2 @@
+# Scoreboard
+qb-scoreboard
